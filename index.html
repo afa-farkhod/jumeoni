@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
+    <meta name="theme-color" content="#0F172A" />
+    <meta name="description" content="Jumeoni (주머니) — Snap any Korean bill, notice, or letter and AI tells you what it is and what to do. Built for foreigners living in Korea." />
+
+    <meta property="og:title" content="Jumeoni — Your Pocket Korean Adult" />
+    <meta property="og:description" content="AI that reads Korean documents and tells you what to do." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="./og-image.png" />
+
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <link rel="apple-touch-icon" href="./icon-192.png" />
+
+    <title>Jumeoni — Your Pocket Korean Adult</title>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a href="#top" class="brand" aria-label="Jumeoni home">
+          <span class="brand-mark" aria-hidden="true">주</span>
+          <span class="brand-name">Jumeoni</span>
+        </a>
+        <nav class="site-nav">
+          <a href="#how-it-works">How it works</a>
+          <a href="#why">Why</a>
+          <a href="#try">Try it</a>
+          <a href="https://github.com/" target="_blank" rel="noopener">GitHub</a>
+        </nav>
+      </div>
+    </header>
+
+    <section class="hero" id="top">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <p class="eyebrow">For the 2.7 million foreigners living in Korea</p>
+          <h1 class="hero-title">
+            Your pocket
+            <span class="hero-title-accent">Korean adult.</span>
+          </h1>
+          <p class="hero-sub">
+            Snap any Korean bill, government notice, prescription, or contract.
+            Jumeoni doesn't just translate it — it tells you
+            <strong>what it is</strong>, <strong>what you need to do</strong>,
+            and <strong>by when</strong>.
+          </p>
+          <div class="hero-cta">
+            <a href="#try" class="btn btn-primary">Try it now →</a>
+            <a href="#how-it-works" class="btn btn-ghost">How it works</a>
+          </div>
+          <p class="hero-foot">No signup. No data stored. Bring your own Gemini API key.</p>
+        </div>
+        <div class="hero-illustration" aria-hidden="true">
+          <div class="illu-paper illu-paper-1">
+            <div class="illu-line"></div>
+            <div class="illu-line short"></div>
+            <div class="illu-line"></div>
+            <div class="illu-stamp">긴급</div>
+          </div>
+          <div class="illu-paper illu-paper-2">
+            <div class="illu-line"></div>
+            <div class="illu-line"></div>
+            <div class="illu-line short"></div>
+          </div>
+          <div class="illu-arrow">→</div>
+          <div class="illu-card">
+            <div class="illu-card-badge">⚠ Action needed</div>
+            <div class="illu-card-title">Automobile tax notice</div>
+            <div class="illu-card-row">Pay ₩340,000 by Dec 15</div>
+            <div class="illu-card-row">Tap to add to calendar</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-muted" id="why">
+      <div class="container">
+        <h2 class="section-title">Translation is solved. Understanding isn't.</h2>
+        <p class="section-lede">
+          Papago and Naver can translate the words. But translated text is still
+          incomprehensible if the <em>system</em> is foreign:
+        </p>
+        <div class="problem-grid">
+          <div class="problem-card">
+            <div class="problem-icon">📬</div>
+            <h3>"Is this a fine or junk mail?"</h3>
+            <p>You get an official-looking envelope. Translating it doesn't tell you whether to act, panic, or recycle.</p>
+          </div>
+          <div class="problem-card">
+            <div class="problem-icon">💊</div>
+            <h3>"Can I drink with this?"</h3>
+            <p>The pharmacy hands you 4 pills. The label has the drug name in Korean. Side effects? Interactions? Good luck.</p>
+          </div>
+          <div class="problem-card">
+            <div class="problem-icon">🏠</div>
+            <h3>"What did my landlord just say?"</h3>
+            <p>A KakaoTalk message arrives. Is it urgent? Are you in trouble? How do you reply politely?</p>
+          </div>
+          <div class="problem-card">
+            <div class="problem-icon">📑</div>
+            <h3>"Am I about to get deported?"</h3>
+            <p>An immigration letter. Translated, it's still bureaucratese. You need someone to say "renew by March or else."</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="how-it-works">
+      <div class="container">
+        <h2 class="section-title">How Jumeoni works</h2>
+        <div class="steps">
+          <div class="step">
+            <div class="step-num">1</div>
+            <h3>Drop the document</h3>
+            <p>Photo, screenshot, or PDF — any Korean paperwork. Drag it in or click to upload.</p>
+          </div>
+          <div class="step">
+            <div class="step-num">2</div>
+            <h3>AI reads <em>and reasons</em></h3>
+            <p>Claude's vision model identifies the document type, extracts deadlines and amounts, and judges urgency.</p>
+          </div>
+          <div class="step">
+            <div class="step-num">3</div>
+            <h3>You get a plan, not a translation</h3>
+            <p>What it is. What to do. By when. Plus next-step actions like adding to calendar or drafting a Korean reply.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-app" id="try">
+      <div class="container">
+        <h2 class="section-title">Try it</h2>
+        <p class="section-lede center">
+          Drop a Korean document below. Sample documents available if you don't have one handy.
+        </p>
+
+        <div class="api-panel" id="api-panel">
+          <details>
+            <summary>
+              <span class="api-status" id="api-status">⚙ Configure API key</span>
+              <span class="api-hint">Click to set up</span>
+            </summary>
+            <div class="api-body">
+              <p>
+                Jumeoni runs entirely in your browser. To call Claude, paste your
+                <a href="https://ai.google.dev/gemini-api/docs/api-key" target="_blank" rel="noopener">Gemini API key</a>.
+                It's stored in <code>localStorage</code> only — never sent anywhere except <code>https://ai.google.dev/gemini-api/docs/api-key</code>.
+              </p>
+              <div class="api-input-row">
+                <input
+                  type="password"
+                  id="api-key-input"
+                  placeholder="AIxxx..."
+                  autocomplete="off"
+                  spellcheck="false"
+                />
+                <button id="save-key-btn" class="btn btn-primary btn-sm">Save</button>
+                <button id="clear-key-btn" class="btn btn-ghost btn-sm">Clear</button>
+              </div>
+              <p class="api-warning">
+                <strong>Production note:</strong> For a real deployment, proxy through a backend
+                (Cloudflare Worker, Vercel function) so users don't need their own key.
+                See README for the proxy pattern.
+              </p>
+            </div>
+          </details>
+        </div>
+
+        <div class="dropzone" id="dropzone" tabindex="0" role="button" aria-label="Upload a document">
+          <input type="file" id="file-input" accept="image/*,application/pdf" hidden />
+          <div class="dropzone-content">
+            <div class="dropzone-icon">📄</div>
+            <p class="dropzone-title">Drop a document here</p>
+            <p class="dropzone-sub">or click to upload — JPG, PNG, or PDF</p>
+          </div>
+          <div class="dropzone-samples">
+            <span class="samples-label">Or try a sample:</span>
+            <button class="sample-btn" data-sample="tax">📃 Tax notice</button>
+            <button class="sample-btn" data-sample="prescription">💊 Prescription</button>
+            <button class="sample-btn" data-sample="kakao">💬 Landlord Kakao</button>
+          </div>
+        </div>
+
+        <div class="result-panel" id="result-panel" hidden>
+          <div class="result-preview" id="result-preview"></div>
+          <div class="result-output" id="result-output">
+            <div class="result-loading" id="result-loading" hidden>
+              <div class="spinner"></div>
+              <p id="loading-text">Reading the document…</p>
+            </div>
+            <div class="result-error" id="result-error" hidden></div>
+            <div class="result-content" id="result-content" hidden></div>
+          </div>
+          <div class="result-actions">
+            <button id="reset-btn" class="btn btn-ghost btn-sm">↺ Try another</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div>
+          <span class="brand-mark small" aria-hidden="true">주</span>
+          <span>Jumeoni · Built at a hackathon · Open source MIT</span>
+        </div>
+        <div class="footer-links">
+          <a href="https://github.com/" target="_blank" rel="noopener">GitHub</a>
+          <a href="#api-panel">API key</a>
+          <a href="#why">Why</a>
+        </div>
+      </div>
+    </footer>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

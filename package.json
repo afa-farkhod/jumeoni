@@ -1,0 +1,18 @@
+{
+  "name": "jumeoni",
+  "version": "0.1.0",
+  "description": "Jumeoni (주머니) — Your pocket Korean adult. Snap any Korean document and AI tells you what it is and what to do.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --host"
+  },
+  "keywords": ["korea", "korean", "ai", "translation", "documents", "expat", "claude", "pwa"],
+  "author": "Jumeoni team",
+  "license": "MIT",
+  "devDependencies": {
+    "vite": "^5.4.0",
+    "vite-plugin-pwa": "^0.20.0"
+  }
+}
