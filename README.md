@@ -95,8 +95,6 @@ Jumeoni is a fully static site. The contents of `dist/` after `npm run build` wi
 - **Netlify Function** — same pattern, set `ANTHROPIC_API_KEY` in env vars
 - **Self-hosted** — any tiny Express/Hono/Fastify app
 
----
-
 ## Architecture
 
 ```
